@@ -17,7 +17,8 @@ def long_planeteer_calls (array)
    (new_array << counter >4 )=== true 
     counter += 1
   end
-  if  
+  if !(new_array << counter > 4 ) false
+  end
   return new_array
   end
 
