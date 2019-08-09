@@ -5,10 +5,10 @@ def roll_call_dwarves(array)
   return array
 end
 
-def summon_captain_planet(array)
-  array.each{|n| p "n"}
-  }
-return array
+def summon_captain_planet(stooges)
+ stooges.each { |stooge| print stooge + "\n" } 
+ }
+return stooges
 end
 
 def long_planeteer_calls# code an argument here
