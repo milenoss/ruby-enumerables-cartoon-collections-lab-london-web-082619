@@ -19,8 +19,5 @@ end
 def find_the_cheese(array)
    cheese_types = ["cheddar", "gouda", "camembert"]
     include cheese_types
-   array.find{ |i| i.include? cheese_types}
+   array.find{ |i| i.include?cheese_types}
   end
-sharks = ["Hammerhead", "Great White", "Tiger", "Whale"]
-result = sharks.find {|item| item.include?("a")}
-print resul
