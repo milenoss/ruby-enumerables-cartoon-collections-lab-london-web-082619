@@ -11,16 +11,7 @@ return array
 end
 
 def long_planeteer_calls (array)
-  counter = 0 
-  new_array =[]
-  while (counter < array.length) do
-   (new_array << counter >4 )=== true 
-    counter += 1
-  end
-  if !(new_array << counter > 4 ) false
-  end
-  return new_array
-  end
+
 
 
 def find_the_cheese# code an argument here
