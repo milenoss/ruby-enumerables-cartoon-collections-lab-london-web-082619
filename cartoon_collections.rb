@@ -17,6 +17,6 @@ end
 
 
 def find_the_cheese(cheese_types)
-array.find{ |i| i % 5 == 0 and i % 7 == 0 }  
+cheese_types.find{ |i| i == n and i == 0 }  
    cheese_types = ["cheddar", "gouda", "camembert"]
 end
