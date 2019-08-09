@@ -1,9 +1,6 @@
 def roll_call_dwarves(array,index)
-  hash = Hash.new
-%w(cat dog wombat).each_with_index { |item, index|
-  hash[item] = index
-}
-hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
+  array.roll_call_dwarves { |arr, index|
+  array[arr] = index
 end
 }
 
