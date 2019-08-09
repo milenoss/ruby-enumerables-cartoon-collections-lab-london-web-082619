@@ -17,7 +17,6 @@ end
 
 
 def find_the_cheese(cheese_types)
- cheese_types.any?{ |word| word.length == "cheese"} 
-cheese_types.any?{ |word| !word.length === "cheese" } 
+
    cheese_types = ["cheddar", "gouda", "camembert"]
 end
