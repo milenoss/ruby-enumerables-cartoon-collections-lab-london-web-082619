@@ -1,7 +1,7 @@
 def roll_call_dwarves(array,index)
   array.each{ |array, index|
   array = index
-  return 
+  return array
 end
 
 end
